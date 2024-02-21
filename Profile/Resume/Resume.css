@@ -1,0 +1,312 @@
+body .container {
+    margin-left: 7rem; /* Adjust this value to reduce the left margin */
+}
+
+.container{
+
+    margin-top: 20px;    
+    border: 2px solid black;
+    padding: 0px;
+    height: 150rem;
+}
+
+.headSect{
+
+    border: 2px solid red;
+    height: 100px;
+}
+
+.resName{
+    font-family: 'Tektur', sans-serif;
+    font-size: 4rem;
+}
+
+.profShort{
+
+    font-family: 'Roboto Slab', serif;
+}
+
+.leftCont{
+
+    border: 2px solid blue;
+    height: 139.8rem;
+    margin-top: 2.2rem !important;
+    
+}
+
+.leftCont ul,
+.leftCont ul li {
+    list-style: none; /* Remove bullet points */
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+.ls-2{
+
+    margin-top: 6rem !important;
+}
+
+.ls-3{
+    margin-top: 12rem !important;
+}
+
+.ls-4{
+    margin-top: 18rem !important;
+}
+
+.rightCont{
+
+    border: 2px solid green;
+    height: 139.8rem;
+    margin-top: 2.2rem !important;
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto Slab', serif;
+}
+
+.list-inline-item {
+    margin: 10px; /* Adjust spacing between items */
+}
+
+.detail_Icon1, .detail_Icon2, .detail_Icon3, .detail_Icon4, .detail_Icon5{
+
+    display: inline;
+    margin-right: 5px;
+}
+
+
+.strengths{
+
+    margin-top: 0.9rem;
+    font-family: 'PT Serif', serif;
+    font-size: 1.09rem;
+}
+
+.strTlt{
+
+    font-size: 1.5rem;
+}
+
+.hrLine{
+
+    border: none;
+    height: 4px;
+    background-color: #333;
+    color: black;
+    margin-top: 0.5rem;
+}
+
+.listStrngths{
+    display: flex;
+}
+
+
+.gridContainer{
+
+    /* border: 2px solid brown; */
+    padding: 0px;
+    margin: 0px;
+    /* background-color: #b6ddff; */
+    position: absolute;
+    left: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 2rem);
+    grid-template-rows: repeat(2, 2rem);
+    width: 22rem;
+    height: 5rem;
+}
+
+ .item1{
+
+    height: 3rem;
+    width: 3rem;
+    /* border: 2px solid burlywood; */
+    margin-left: 0.2rem;
+    margin-top: 1.4rem;
+    margin-bottom: 0.9rem;
+}
+
+ .item2{
+
+    height: 3rem;
+    width: 3rem;
+    /* border: 2px solid crimson; */
+    margin-left: 3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.9rem;
+    width: 15rem;
+}
+
+.str-s2-1, .str-s2-2{
+
+
+    height: 2rem;
+    width: 15rem;
+    /* border: 2px solid darkblue; */
+}
+
+.str-s2-2{
+
+    margin-top: 0.2rem;
+    font-family: 'Playfair', serif;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.ls-2, .ls-3, .ls-4{
+
+    margin-top: 4rem;
+}
+
+.skills{
+
+    margin-top: 8rem;
+    font-family: 'PT Serif', serif;
+    font-size: 1.09rem;
+}
+
+.gridContainer1{
+
+    /* border: 2px solid brown; */
+    padding: 0px;
+    margin: 0px;
+    /* background-color: #b6ddff; */
+    /* position: absolute; */
+    left: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 8rem);
+    grid-template-rows: repeat(6, 3rem);
+    width: 22rem;
+    height: 5rem;
+}
+
+.gridContainer1 .sk-4, .sk-6, .sk-9{
+
+    margin-top: 8px;
+}
+
+.sklTlt{
+
+    font-size: 1.5rem;
+}
+
+
+.Certifications{
+
+    margin-top: 15rem;
+}
+
+
+.TechExp{
+
+    margin-top: 4rem;
+}
+
+.summary{
+
+    margin-top: 1rem;
+}
+
+.expWork1{
+
+    margin-top: 2rem;
+}
+
+.expTlt2{
+
+    margin-top: 2rem;
+}
+
+.gridContainer3{
+
+    padding: 0px;
+    margin: 0px;
+    left: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 15rem);
+    grid-template-rows: repeat(1 , 3rem);
+    width: 22rem;
+    height: 6rem;
+}
+
+.gridContainer4{
+
+    padding: 0px;
+    margin: 0px;
+    left: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 5rem);
+    grid-template-rows: repeat(1 , 3rem);
+    width: 22rem;
+    height: 3rem;
+}
+
+.techName{
+
+    padding: 0px;
+    margin: 0px;
+    width: 0.5rem !;
+}
+
+.prgStat{
+
+    justify-content: left;
+    align-items: start;
+}
+
+.progress{
+
+    margin: 0px;
+    position: absolute;
+    padding: 0px;
+    display: flex;
+    justify-content: left !important;
+    align-items: start;
+    margin-top: 0.4rem;
+    border: 2px solid rgb(44, 48, 254);
+    height: 1.1rem !important;
+    width: 12rem;
+}
+
+.gridContainer5{
+
+    padding: 0px;
+    margin: 0px;
+    left: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 12rem);
+    grid-template-rows: repeat(2 , 2rem);
+    width: 22rem;
+    height: 3rem;
+}
+
+.projDesc{
+
+
+}
+
+.gridContainer6{
+
+    padding: 0px;
+    margin: 0px;
+    left: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 18rem);
+    grid-template-rows: repeat(2 , 2rem);
+    width: 22rem;
+    height: 3rem;
+}
+
+
+.item1{
+
+    font-size: 1.5rem;
+    position: absolute;
+    color: blue;
+}
